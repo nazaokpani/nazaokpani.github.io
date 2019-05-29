@@ -1,0 +1,244 @@
+html, body{
+    height: 100%;
+    background-color: rgba(201, 206, 180, 0.5)
+}
+
+
+#background{
+    background-color:blue;
+}
+.text-allign{
+    text-align: center;
+}
+a.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+.btn-primary {
+    color: rgb(22, 17, 17);
+    background-color: #9ccead;
+    border-color: #009bff;
+}
+
+.button{
+    box-sizing: border-box;
+   
+}
+
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.active{
+    padding: 5px, 20px;
+}
+
+
+
+
+.hero-image{
+    background-image: url(../img/background\ image.jpg);
+    height: 40%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;   
+}
+button{
+    cursor: pointer;
+}
+h2{
+    font-size: 2em;
+    font-family: verdana;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+
+div p{
+    text-align: justify;
+}
+
+div.p{
+    text-align: justify;
+} 
+
+.topnav{
+    background-color: rgb(7, 70, 64) ;
+    overflow: hidden;
+}
+
+.navbar-brand img{
+    margin: 10px;
+    border-radius: 4px;
+    transition: all 1s;
+}
+/* .topnav a{
+    display: block;
+    float: left;
+    color: #f2f2f2;
+    text-align: center
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+} */
+div.space{
+    float: right;
+    color: #f2f2f2;
+    /* text-align: center */
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    position: sticky ;
+}
+div.space:hover{
+    background-color: rgb(153, 201, 40);
+    color: #000000;
+}
+.topnav.space.active{
+    background-color: rgb(153, 201, 40);
+    color:white;
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+/* }
+user agent stylesheet
+nav {
+    display: block; */
+}
+
+/* .active1 button{
+    border-bottom-right-radius: 2px solid blue ;
+} */
+/* h3{
+    text-align: center; */
+/* } */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.space{
+width: 100px;
+height: 70px;
+
+
+}
+
+div.container img{
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 4px;
+    transition: all 1s;
+    
+}
+
+.container img:hover{
+    transform: scale(1.1);
+}
+div.img{
+    float: left;
+   
+}
+
+/* .flex-text{
+  text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;     
+} */
+
+/* .featured-zones, .featured-zone, .zone-name {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 0 700px rgba(0,0,0,.4);
+    border-radius: 4px;
+    transition: .4s ease-in-out;
+    font-size: 2.2rem; */
+/* } */
+
+/* .demobox{
+    background-color: rgba(226, 165, 95, 0.5); border-radius: 30px;
+    width: 200px;
+    height: 100px;
+    
+} */
+footer{
+    background-color: rgb(9, 80, 80);
+    text-align: center;
+    /* float: right; */
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
